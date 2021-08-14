@@ -381,6 +381,9 @@ footer {
   .showcase a {
     display: block;
   }
+  .logo-class {
+    display: none;
+  }
   .about-sect {
     background-color: #F8485E;
     height: 80vh;
@@ -392,10 +395,9 @@ footer {
   }
   .about-content {
     line-height: 3.1rem;
-    font-size: 16px;
   }
   .about-content h2 {
-    font-size: 40px;
+    font-size: 30px;
   }
   .contact-sect, .about-sect {
     height: 150vh;

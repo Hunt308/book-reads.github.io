@@ -53,6 +53,10 @@
 
     }
 
+    .logo-class{
+        display: none;
+    }
+
 
     .about-sect {
         background-color: $secondary-color;
@@ -66,10 +70,9 @@
     
     .about-content {
         line-height: 3.1rem;
-        font-size: 16px;
 
         h2{
-            font-size: 40px;
+            font-size: 30px;
         }
     }
 
