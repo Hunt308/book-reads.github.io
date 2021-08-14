@@ -1,0 +1,57 @@
+nav .active, nav a:hover {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+}
+
+header{
+    background-color: $primary-color;
+    height: 100vh;
+    border-bottom: 10px solid #fff;
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem;
+        height: 5rem;
+        margin: 0 10rem;
+
+
+        .logo-class{
+            color: #FFC803;
+        }
+
+        ul{
+            display: flex;
+        }
+
+        li{
+            margin-left: 50px;
+            list-style-type: none;
+            
+    
+            a{
+                text-decoration: none;
+                color: #fff;
+                font-size: 20px;
+            }
+        }
+
+        .logo-class{
+            font-size: 25px;
+            text-decoration: none;
+            text-transform: uppercase;
+            word-spacing: 10px;
+            font-weight: bold;
+        }
+        
+
+
+        
+    }
+
+
+
+    
+
+
+}

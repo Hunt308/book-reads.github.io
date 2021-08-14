@@ -1,0 +1,43 @@
+.showcase {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    img{
+        width: 550px;
+        height: 600px;
+        margin-top: 2rem;
+    }
+
+    h1{
+        color: #fff;
+        font-size: 70px;
+        max-width: 450px;
+        margin-right: 60px;
+        line-height: 6.5rem;
+        text-transform: uppercase;
+    } 
+
+    .btn {
+        background-color: $unique-color;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 20px;
+        display: block;
+        margin-top: 20px;
+        width: 150px;
+        text-align: center;
+    }
+
+    .btn:hover{
+        background-color: $genre-link-color;
+        transition: 0.8s ease-in-out;
+    }
+}
+
+.showcase-content{
+    margin-top: 1rem;
+}

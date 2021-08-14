@@ -1,0 +1,190 @@
+@media(max-width: 1300px){
+    .about-content {
+        font-size: 12px;
+        line-height: 2.1;
+
+        h2{
+            font-size: 30px;
+        }
+
+        
+    }
+}
+
+
+@media (max-width: 900px){
+
+    .about-sect, .writers-content, .shop-sect, 
+    .contact-sect,  .showcase{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+
+    }
+
+    
+    
+
+    .about-sect img, .shop-sect img{
+        display: none;
+    }
+
+    .writers-sect img{
+        width: 135px;
+    }
+
+    .showcase{
+        flex-direction: column-reverse;
+
+        img{
+            width: 300px;
+        }
+
+        .showcase-content{
+            max-width: 400px;
+        }
+
+        a{
+            display: block;
+        }
+
+
+    }
+
+
+    .about-sect {
+        background-color: $secondary-color;
+        height: 80vh;
+        color: #fff;
+        display: flex;
+        border-bottom: 10px solid #fff;
+    
+    }
+    
+    
+    .about-content {
+        line-height: 3.1rem;
+        font-size: 16px;
+
+        h2{
+            font-size: 40px;
+        }
+    }
+
+    
+
+    
+
+
+
+    
+
+    .contact-sect, .about-sect{
+        height: 150vh;
+    }
+
+    .writers-sect{
+        height: 200vh;
+    }
+
+    .showcase h1{
+        max-width: 450px;
+        margin-right: 0px;
+        text-align: center;
+    } 
+
+    .btn {
+        margin: 0 auto;
+    }
+
+    .writers-sect h2, .shop-sect, .contact-sect, .showcase h1{
+        font-size: 30px;
+    }
+
+    .nav-bar{
+        display: none;
+    }
+
+    .nav-bar.active{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        z-index: 3;
+
+
+    }
+    
+
+    .nav-bar.active {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 80%;
+        height: 100%;
+        background: #0c1818;;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+
+    .toggle{
+        position: fixed;
+        top: 5px;
+        right: 20px;
+        width: 39px;
+        height: 39px;
+        background: #0169b2 url(../images/menu.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        z-index: 1000;
+        border-radius: 2px;
+    }
+
+    /* .active needs to stick to the toggle*/
+
+    .toggle.active{
+        background: #0169b2 url(../images/close.png);
+        background-size: 25px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .nav-bar ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    
+    }
+
+    .nav-bar li{
+        margin-top: 30px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+
+
+
+
+    
+
+
+    
+    
+}
